@@ -1,7 +1,143 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>runandre</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="outer">
+    	<i class="fa fa-arrow-circle-up" id="arrow" aria-hidden="true"></i>
+    	<div class="inner">
+    		<!--
+    		HEADER
+        SECTION
+    -->
+    		<header>
+    			<div class="container-fluid clearfix">
+    				<div class="row">
+    					<i class="fa fa-bars nav-toggle" aria-hidden="true"></i>
+    					<nav role="navigation">
+    						<i class="fa fa-times nav-toggle" aria-hidden="true"></i>
+    						<ul class="list-unstyled" id="nav">
+    							<li>
+    								<a class="nav-link" href="#intro"><span>About</span></a>
+    								<div class="underline"></div>
+    							</li>
+    							<li>
+    								<a class="nav-link" href="#skills"><span>Skills</span></a>
+    								<div class="underline"></div>
+    							</li>
+    							<li>
+    								<a class="nav-link" href="#portfolio"><span>Portfolio</span></a>
+    								<div class="underline"></div>
+    							</li>
+    							<li>
+    								<a class="nav-link" href="#contacts"><span>Contacts</span></a>
+    								<div class="underline"></div>
+    							</li>
+    						</ul>
+    					</nav>
+    				</div>
+    				<h1 class="titanic naked">Hey!</h1>
+    			</div>
+    		</header>
 
-<body>
+    		<!--
+    		INTRODUCTION
+    		SECTION
+    -->
 
-</body>
+    		<main id="main">
+    			<div class="container">
+    				<div class="row">
+    					<div id="intro">
+    						I'm Andre Santiago. I'm a recent graduate of Flatiron School, and a Full Stack Engineer.
+    					</div>
+    				</div>
+    			</div>
+    		</main>
+    		<section class="skills-sec">
+    			<div class="container-fluid">
+    				<div class="row">
+    					<div class="col-xs-10 col-xs-offset-1">
+    						<h2>Skills</h2>
+    					</div>
+    					<div class="col-xs-8 col-xs-offset-2">
+    						<div id="skills">
+    							<img class="img-responsive skill toR" src="https://www.dropbox.com/s/ptiub25akn0arv1/js.png?dl=1" alt="js icon" />
+    							<img class="img-responsive skill" src="https://www.dropbox.com/s/mg6l07shpizexrm/css3.png?dl=1" alt="css icon" />
+    							<img class="img-responsive skill toL" src="https://www.dropbox.com/s/gpnimluvvf99aln/html5.png?dl=1" alt="html icon" />
+    							<img src="https://www.dropbox.com/s/imyppai6tbkcy66/bootstrap.png?dl=1" alt="bootstrap icon" class="img-responsive skill toR" />
+    							<img src="https://www.dropbox.com/s/qbirqpen1rap569/jquery.png?dl=1" alt="jquery icon" class="img-responsive skill" />
+    							<img src="https://www.dropbox.com/s/3qcvkhy12pmmyy9/gitpng.png?dl=1" alt="git icon" class="img-responsive skill toL" />
+    							<img src="https://www.dropbox.com/s/4258cs4sxun3ogs/sass.png?dl=1" alt="sass icon" class="img-responsive skill toR" />
+    							<img src="https://www.dropbox.com/s/addcu8z0r6xxrpn/react.png?dl=1" alt="react icon" class="img-responsive skill toL" />
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</section>
+
+    		<!--
+    		PORTFOLIO
+        SECTION
+    -->
+
+    		<section class="portfolio-sec">
+    			<div class="container-fluid">
+    				<div class="row">
+    					<div class="col-xs-10 col-xs-offset-1">
+    						<h2>Portfolio</h2>
+    					</div>
+    					<div class="col-xs-12">
+    						<div id="portfolio">
+    							<div class="project">
+    								<a href="http://flatironchatterbox.herokuapp.com/" target="_blank"><img src="https://www.dropbox.com/s/vmhwxw3b7wehl3i/Flatiron-Chatterbox.png?dl=0" alt="flatiron_chatterbox" class="img-responsive" /></a>
+    							</div>
+    							<div class="project">
+    								<a href="https://github.com/runandrerun/pawticulars_frontend" target="_blank"><img src="https://www.dropbox.com/s/3g5y1rkw9ia5upx/pawticulars.png?dl=0" alt="pawticulars" class="img-responsive" /></a>
+    							</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</section>
+
+    	</div>
+    	<!--
+    		FOOTER
+        SECTION
+    -->
+    	<footer>
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-xs-10 col-xs-offset-1">
+    					<h2>Get in Touch</h2>
+    				</div>
+    				<div class="col-xs-12">
+    					<div id="contacts">
+    						<div class="row">
+    							<div class="col-lg-3 col-sm-6">
+    								<a class="contact-link awesome" href="the.asantiagojr@gmail.com">Mail</a>
+    							</div>
+    							<div class="col-lg-3 col-sm-6">
+    								<a class="contact-link awesome" href="https://www.linkedin.com/in/andre-santiago-79724467/">LinkedIn</a>
+    							</div>
+    							<div class="col-lg-3 col-sm-6">
+    								<a class="contact-link awesome" href="https://www.github.com/runandrerun">github</a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</footer>
+
+    </div>
+
+    <script src="myscripts.js"></script>
+
+  </body>
+</html>
