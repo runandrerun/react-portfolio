@@ -1,6 +1,6 @@
 {
   "name": "runandrerun.github.io",
-  "homepage": "http://runandrerun.github.io/",
+  "homepage": "http://runandrerun.github.io/runandrerun.github.io",
   "private": true,
   "dependencies": {
     "react": "^16.5.2",
